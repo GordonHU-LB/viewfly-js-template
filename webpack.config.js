@@ -44,7 +44,7 @@ module.exports = {
         }
       }]
     }, {
-      test: /\.s?css$/,
+      test: /\.(css|less)$/,
       use: ['style-loader', {
         loader: 'css-loader',
         options: {
@@ -70,7 +70,14 @@ module.exports = {
             ],
           }
         }
-      }, 'sass-loader'],
+      }, {
+        loader: 'less-loader',
+        options: {
+          lessOptions: {
+            javascriptEnabled: true
+          }
+        }
+      }],
     }]
   },
   plugins: [

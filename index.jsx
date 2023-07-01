@@ -1,7 +1,7 @@
 import {createApp} from '@viewfly/platform-browser'
 
 import { useSignal } from '@viewfly/core'
-import './index.scss'
+import './index.less'
 
 function App() {
   const number = useSignal(0)
