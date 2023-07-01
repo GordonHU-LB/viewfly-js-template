@@ -51,8 +51,10 @@
     "webpack-dev-server": "^4.7.1"
   },
   "dependencies": {
-    "@viewfly/core": "0.0.1-alpha.4",
-    "@viewfly/platform-browser": "^0.0.1-alpha.4"
+    "@viewfly/core": "^v0.0.1-alpha.11",
+    "@viewfly/platform-browser": "^v0.0.1-alpha.11",
+    "@viewfly/hooks": "^v0.0.1-alpha.11",
+    "@viewfly/scoped-css": "^v0.0.1-alpha.11"
   },
   "repository": {
     "type": "git",
